@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>ASMD MULTIPLE TABLE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section-one">
+            <form name="myForm"  id="form">
+                <h2>MULTIPLE TABLE</h2>
+                <div class="input-one">
+                <label for="">Enter a Number A</label>
+                <input type="number" name="calculate1" id="input1">
+            </div>
+            <div class="input-two">
+                <label for="">Enter a Number B</label>
+                <input type="number" name="calculate2" id="input2">
+            </div>
+            <div class="result_answer">
+                <label for="">Result</label>
+                <input type="number" name="result" id="answer">
+            </div>
+                <div id="addsub-btn">
+                    <input class="add" type="button" value="ADD" onclick="add()">
+                    <input class="subtract" type="button" value="SUBTRACT" onclick="subtract()">
+                </div>
+                <div id="muldiv-btn">
+                    <input class="multiply"type="button" value="MULTIPLY" onclick="multiply()">
+                    <input class="divide"type="button" value="DIVIDE" onclick="divide()">
+                </div>
+
+                <div id="clear">
+                    <input type="button" value="RESET" onclick="clear()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

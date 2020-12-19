@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("images/darkwater\ img.jfif") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+    margin-bottom: 2rem;
+    width: 220px;
+    padding: 8px 0;
+    outline: none;
+}
+form h2 {
+    font-size: 2rem;
+    margin: -4rem 0 1.5rem 0;
+    text-align: center;
+}
+.input-one label,
+.input-two label{
+    margin-right: 2rem;
+    font-size: 18px;
+} 
+.result_answer label {
+    margin-right: 7.4rem;
+    font-size: 18px;
+}
+#addsub-btn input,#muldiv-btn input {
+    font-size: 0.8rem;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 7px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+}
+.add {
+    margin-left: 11rem;
+}
+.subtract {
+    margin-left: 3.5rem;
+}
+.multiply{
+    margin-left: 11rem;
+}
+.divide {
+    margin-left: 3.5rem;
+}
+#clear {
+    text-align: center;
+    margin-top: 4rem;
+}
+#clear input {
+    padding: 6px 0;
+    width: 100px;
+    text-align: center;
+}
+@media screen and (max-width:400px) {
+    .container {
+        overflow: hidden;
+        width: 100%;
+    }
+    input {
+        width: 180px;
+    }
+    .form-sub input {
+        margin-right: .5rem;
+        width: 70px;
+    }
+}
